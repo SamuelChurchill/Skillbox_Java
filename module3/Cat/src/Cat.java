@@ -52,4 +52,15 @@ public class Cat
             return "Playing";
         }
     }
+
+    public Double getEatingMass()
+    {
+        return weight - originWeight;
+    }
+
+    public void goToilet()
+    {
+        weight = weight - 2;
+        System.out.println("Дело сделано!");
+    }
 }

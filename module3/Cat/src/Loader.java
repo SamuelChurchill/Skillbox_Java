@@ -8,6 +8,7 @@ public class Loader
         Cat murzik = new Cat();
         Cat murka = new Cat();
         Cat ryzhik = new Cat();
+        Cat masya = new Cat();
 
         for (; cat.getWeight() >= 0.0;)
         {
@@ -44,5 +45,12 @@ public class Loader
         ryzhik.feed(9000.0);
         System.out.println("Рыжик " + ryzhik.getWeight());
         System.out.println("Рыжик " + ryzhik.getStatus() + "\n");
+
+        System.out.println("Мася " + masya.getWeight());
+        masya.feed(40.1234);
+        System.out.println("Мася " + masya.getWeight());
+        System.out.println("Мася съела " + masya.getEatingMass());
+        masya.goToilet();
+        System.out.println("Мася " + masya.getWeight());
     }
 }
