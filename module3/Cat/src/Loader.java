@@ -51,6 +51,8 @@ public class Loader
         System.out.println("Мася " + masya.getWeight());
         System.out.println("Мася съела " + masya.getEatingMass());
         masya.goToilet();
-        System.out.println("Мася " + masya.getWeight());
+        System.out.println("Мася " + masya.getWeight() + "\n");
+
+        System.out.println("Всего кошек " + Cat.getCount());
     }
 }
