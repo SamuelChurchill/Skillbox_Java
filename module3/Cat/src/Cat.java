@@ -3,18 +3,19 @@ public class Cat
 {
     static int count = 0;
 
+    public static final int EYE_COUNT = 2;
+
+    private static final double MIN_WEIGHT = 1000.0;
+    private static final double MAX_WEIGHT = 9000.0;
+
     private double originWeight;
     private double weight;
 
-    private double minWeight;
-    private double maxWeight;
 
     public Cat()
     {
         weight = 1500.0 + 3000.0 * Math.random();
         originWeight = weight;
-        minWeight = 1000.0;
-        maxWeight = 9000.0;
         count++;
     }
 
@@ -41,11 +42,11 @@ public class Cat
 
     public String getStatus()
     {
-        if(weight < minWeight) {
+        if(weight < MIN_WEIGHT) {
             count--;
             return "Dead";
         }
-        else if(weight > maxWeight) {
+        else if(weight > MAX_WEIGHT) {
             count--;
             return "Exploded";
         }
@@ -71,5 +72,10 @@ public class Cat
     public static int getCount()
     {
         return count;
+    }
+
+    public void setCatColor(CatColor color)
+    {
+
     }
 }

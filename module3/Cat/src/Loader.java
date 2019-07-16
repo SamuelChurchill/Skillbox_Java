@@ -54,5 +54,9 @@ public class Loader
         System.out.println("Мася " + masya.getWeight() + "\n");
 
         System.out.println("Всего кошек " + Cat.getCount());
+        System.out.println("Количество глаз у кошек " + Cat.EYE_COUNT);
+
+        masya.setCatColor(CatColor.THREE_COLOR);
+        vaska.setCatColor(CatColor.GREY);
     }
 }
