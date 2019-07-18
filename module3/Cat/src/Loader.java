@@ -58,5 +58,8 @@ public class Loader
 
         masya.setCatColor(CatColor.THREE_COLOR);
         vaska.setCatColor(CatColor.GREY);
+
+        Cat kitty = new Cat(100.0);
+        System.out.println("\nКотенку задали вес при рождении: " + kitty.getWeight());
     }
 }
