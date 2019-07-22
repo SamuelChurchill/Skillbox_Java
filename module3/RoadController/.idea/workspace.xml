@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3566954-15db-468d-82d7-9b60a8957e26" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../RoadController/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/RoadController.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/out/production/RoadController/RoadController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/out/production/RoadController/core/Camera.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/out/production/RoadController/core/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/src/RoadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/src/core/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RoadController/src/core/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Cat/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cat/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Cat/CatColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cat/CatColor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Cat/Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Cat/Loader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
+    <list default="true" id="c231ce39-21c2-4bee-9a12-9fac9e2dfe2c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cat/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="Cat.iws" />
+    <ignored path="RoadController.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,40 +17,61 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="Cat" />
+    <favorites_list name="RoadController" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Loader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CatColor.java">
+        <entry file="file://$PROJECT_DIR$/src/RoadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Cat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            <state relative-caret-position="493">
+              <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
               <folding>
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1432#1433#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
-                <element signature="e#1545#1546#0" expanded="true" />
-                <element signature="e#1586#1587#0" expanded="true" />
-                <element signature="e#1614#1615#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2673#2674#0" expanded="true" />
+                <element signature="e#2752#2753#0" expanded="true" />
+                <element signature="e#2864#2865#0" expanded="true" />
+                <element signature="e#2930#2931#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/Camera.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/core/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+              <folding>
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,30 +79,59 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CatColor.java" />
-        <option value="$PROJECT_DIR$/src/Cat.java" />
-        <option value="$PROJECT_DIR$/src/Loader.java" />
+        <option value="$PROJECT_DIR$/src/core/Police.java" />
+        <option value="$PROJECT_DIR$/src/core/WeightMeter.java" />
+        <option value="$PROJECT_DIR$/src/RoadController.java" />
+        <option value="$PROJECT_DIR$/src/core/Camera.java" />
+        <option value="$PROJECT_DIR$/src/core/Car.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="21" />
     <option name="width" value="1440" />
     <option name="height" value="879" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -111,34 +140,47 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Cat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cat" type="462c0819:PsiDirectoryNode" />
+              <item name="RoadController" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadController" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Cat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cat" type="462c0819:PsiDirectoryNode" />
+              <item name="RoadController" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadController" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RoadController" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RoadController" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563831240196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563489098952" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RoadController" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Danya\Documents\Development\Idea Projects\RoadController\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,9 +242,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loader" />
-      <module name="Cat" />
+    <configuration name="RoadController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RoadController" />
+      <module name="RoadController" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,7 +282,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Loader" />
+        <item itemvalue="Application.RoadController" />
       </list>
     </recent_temporary>
   </component>
@@ -249,19 +291,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d3566954-15db-468d-82d7-9b60a8957e26" name="Default" comment="" />
-      <created>1440574635454</created>
+      <changelist id="c231ce39-21c2-4bee-9a12-9fac9e2dfe2c" name="Default" comment="" />
+      <created>1440407527599</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1440574635454</updated>
+      <updated>1440407527599</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25020242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1611336" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Palette&#9;" order="3" />
@@ -270,16 +311,16 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49959514" visible="true" weight="0.348135" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42628774" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" weight="0.348135" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -304,33 +345,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Variables/src/Cat.java" />
-    <entry file="file://$PROJECT_DIR$/src/CatColor.java">
+    <entry file="file://$PROJECT_DIR$/src/core/Police.java" />
+    <entry file="file://$PROJECT_DIR$/src/core/WeightMeter.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="125">
+          <caret line="1880" column="18" selection-start-line="1880" selection-start-column="18" selection-end-line="1880" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/RoadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        <state relative-caret-position="493">
+          <caret line="62" column="39" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
           <folding>
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1432#1433#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1545#1546#0" expanded="true" />
-            <element signature="e#1586#1587#0" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2673#2674#0" expanded="true" />
+            <element signature="e#2752#2753#0" expanded="true" />
+            <element signature="e#2864#2865#0" expanded="true" />
+            <element signature="e#2930#2931#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Loader.java">
+    <entry file="file://$PROJECT_DIR$/src/core/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+          <folding>
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

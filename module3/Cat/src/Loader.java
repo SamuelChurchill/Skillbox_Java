@@ -58,6 +58,9 @@ public class Loader
 
         masya.setCatColor(CatColor.THREE_COLOR);
         vaska.setCatColor(CatColor.GREY);
+        System.out.println("\nЦвет Маси " + masya.getCatColor());
+        System.out.println("Цвет Васьки " + vaska.getCatColor());
+        System.out.println("Цвет дворовой кошки " + cat.getCatColor());
 
         Cat kitty = new Cat(100.0);
         System.out.println("\nКотенку задали вес при рождении: " + kitty.getWeight());

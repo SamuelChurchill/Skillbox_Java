@@ -11,6 +11,7 @@ public class Cat
     private double originWeight;
     private double weight;
 
+    private CatColor color = CatColor.UNKNOWN;
 
     public Cat()
     {
@@ -81,6 +82,11 @@ public class Cat
 
     public void setCatColor(CatColor color)
     {
+        this.color = color;
+    }
 
+    public CatColor getCatColor()
+    {
+        return color;
     }
 }

@@ -4,5 +4,6 @@ public enum CatColor
     WHITE,
     RED,
     GREY,
-    THREE_COLOR
+    THREE_COLOR,
+    UNKNOWN
 }
