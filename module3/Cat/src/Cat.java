@@ -89,4 +89,11 @@ public class Cat
     {
         return color;
     }
+
+    public void catCopy(Cat name)
+    {
+        color = name.color;
+        weight = name.weight;
+        originWeight = name.originWeight;
+    }
 }

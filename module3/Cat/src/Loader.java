@@ -63,6 +63,13 @@ public class Loader
         System.out.println("Цвет дворовой кошки " + cat.getCatColor());
 
         Cat kitty = new Cat(100.0);
-        System.out.println("\nКотенку задали вес при рождении: " + kitty.getWeight());
+        System.out.println("\nКотенку задали вес при рождении: " + kitty.getWeight() + "\n");
+
+        Cat mishka = new Cat();
+        mishka.catCopy(vaska);
+        System.out.println("Мишка " + mishka.getWeight());
+        System.out.println("Цвет Мишки " + mishka.getCatColor());
+        System.out.println("Мишка " + mishka.getStatus());
+        System.out.println("Мишка съел " + mishka.getEatingMass());
     }
 }
