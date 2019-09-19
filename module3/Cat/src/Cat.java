@@ -10,6 +10,9 @@ public class Cat
 
     private double originWeight;
     private double weight;
+    private double feedAmount = 0.0;
+
+    private boolean isAlive;
 
     private CatColor color = CatColor.UNKNOWN;
 
@@ -18,27 +21,68 @@ public class Cat
         weight = 1500.0 + 3000.0 * Math.random();
         originWeight = weight;
         count++;
+        isAlive = true;
+        if (weight > MAX_WEIGHT || weight < MIN_WEIGHT)
+        {
+            count--;
+            isAlive = false;
+        }
     }
 
     public Cat(double weight)
     {
         this.weight = weight;
+        originWeight = this.weight;
+        count++;
+        isAlive = true;
+        if (weight > MAX_WEIGHT || weight < MIN_WEIGHT)
+        {
+            count--;
+            isAlive = false;
+        }
     }
 
     public void meow()
     {
-        weight = weight - 1;
-        System.out.println("Meow");
+        if (!isAlive)
+            System.out.println("Ничего не происходит...");
+        else {
+            weight--;
+            System.out.println("Meow");
+            if (isAlive && (weight < MIN_WEIGHT)) {
+                count--;
+                isAlive = false;
+            }
+        }
     }
 
     public void feed(Double amount)
     {
-        weight = weight + amount;
+        weight += amount;
+        feedAmount += amount;
+        if (isAlive && (weight > MAX_WEIGHT)){
+            count--;
+            isAlive = false;
+        }
+        else if (!isAlive && (weight > MIN_WEIGHT)){
+            count++;
+            isAlive = true;
+            System.out.println("Произошло чудо, мы вернули кошку к жизни!");
+        }
     }
 
     public void drink(Double amount)
     {
-        weight = weight + amount;
+        weight += amount;
+        feedAmount += amount;
+        if (isAlive && (weight > MAX_WEIGHT)){
+            count--;
+            isAlive = false;
+        }
+        else if (!isAlive && (weight > MIN_WEIGHT)){
+            count++;
+            isAlive = true;
+        }
     }
 
     public Double getWeight()
@@ -49,11 +93,9 @@ public class Cat
     public String getStatus()
     {
         if(weight < MIN_WEIGHT) {
-            count--;
             return "Dead";
         }
         else if(weight > MAX_WEIGHT) {
-            count--;
             return "Exploded";
         }
         else if(weight > originWeight) {
@@ -66,13 +108,21 @@ public class Cat
 
     public Double getEatingMass()
     {
-        return weight - originWeight;
+        return feedAmount;
     }
 
     public void goToilet()
     {
-        weight = weight - 2;
-        System.out.println("Дело сделано!");
+        if (!isAlive)
+            System.out.println("Ничего не происходит...");
+        else {
+            weight -= 2;
+            System.out.println("Дело сделано!");
+            if (isAlive && (weight < MIN_WEIGHT)) {
+                count--;
+                isAlive = false;
+            }
+        }
     }
 
     public static int getCount()
@@ -90,10 +140,20 @@ public class Cat
         return color;
     }
 
-    public void catCopy(Cat name)
+    public Cat catCopy()
     {
-        color = name.color;
-        weight = name.weight;
-        originWeight = name.originWeight;
-    }
+        Cat copyCat = new Cat();
+
+        copyCat.color = getCatColor();
+        copyCat.weight = getWeight();
+        copyCat.originWeight = originWeight;
+        copyCat.isAlive = isAlive;
+        if (weight > MAX_WEIGHT || weight < MIN_WEIGHT)
+        {
+            isAlive = false;
+            count--;
+        }
+        copyCat.feedAmount = getEatingMass();
+        return copyCat;
+        }
 }
