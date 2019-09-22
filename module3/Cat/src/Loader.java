@@ -10,12 +10,14 @@ public class Loader
         Cat ryzhik = new Cat();
         Cat masya = new Cat();
 
-        for (; cat.getWeight() >= 0.0;)
+        while (cat.getWeight() > 1000.0)
         {
             System.out.print("Уличный кот: ");
             cat.meow();
         }
         System.out.println("Уличный кот " + cat.getWeight());
+        System.out.println("Уличный кот " + cat.getStatus() + "\n");
+        cat.feed(5000.0);
         System.out.println("Уличный кот " + cat.getStatus() + "\n");
 
         System.out.println("Васька " + vaska.getWeight());
@@ -45,6 +47,9 @@ public class Loader
         ryzhik.feed(9000.0);
         System.out.println("Рыжик " + ryzhik.getWeight());
         System.out.println("Рыжик " + ryzhik.getStatus() + "\n");
+        ryzhik.goToilet();
+        System.out.println("Рыжик " + ryzhik.getWeight());
+        System.out.println("Рыжик " + ryzhik.getStatus() + "\n");
 
         System.out.println("Мася " + masya.getWeight());
         masya.feed(40.1234);
@@ -65,11 +70,20 @@ public class Loader
         Cat kitty = new Cat(100.0);
         System.out.println("\nКотенку задали вес при рождении: " + kitty.getWeight() + "\n");
 
-        Cat mishka = new Cat();
-        mishka.catCopy(vaska);
+        System.out.println("Всего кошек " + Cat.getCount());
+
+        Cat mishka = vaska.catCopy();
         System.out.println("Мишка " + mishka.getWeight());
         System.out.println("Цвет Мишки " + mishka.getCatColor());
         System.out.println("Мишка " + mishka.getStatus());
-        System.out.println("Мишка съел " + mishka.getEatingMass());
+        System.out.println("Мишка съел " + mishka.getEatingMass() + "\n");
+
+        System.out.println("Всего кошек " + Cat.getCount() + "\n");
+
+        System.out.println(newCat(5000.0).getWeight());
+    }
+    public static Cat newCat(double weight) {
+        Cat changeCat = new Cat(weight);
+        return changeCat;
     }
 }
