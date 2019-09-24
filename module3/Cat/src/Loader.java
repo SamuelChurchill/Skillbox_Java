@@ -67,7 +67,7 @@ public class Loader
         System.out.println("Цвет Васьки " + vaska.getCatColor());
         System.out.println("Цвет дворовой кошки " + cat.getCatColor());
 
-        Cat kitty = new Cat(100.0);
+        Cat kitty = new Cat(1100.0);
         System.out.println("\nКотенку задали вес при рождении: " + kitty.getWeight() + "\n");
 
         System.out.println("Всего кошек " + Cat.getCount());
@@ -82,7 +82,8 @@ public class Loader
 
         System.out.println(newCat(5000.0).getWeight());
     }
-    public static Cat newCat(double weight) {
+    public static Cat newCat(double weight)
+    {
         Cat changeCat = new Cat(weight);
         return changeCat;
     }

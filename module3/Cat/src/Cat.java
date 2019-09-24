@@ -18,31 +18,31 @@ public class Cat
 
     public Cat()
     {
-        weight = 1500.0 + 3000.0 * Math.random();
-        originWeight = weight;
-        count++;
-        isAlive = true;
-        if (weight > MAX_WEIGHT || weight < MIN_WEIGHT)
-        {
-            count--;
-        }
+        this(1500.0 + 3000.0 * Math.random());
     }
 
     public Cat(double weight)
     {
-        this();
         this.weight = weight;
         originWeight = this.weight;
+        if (weight > MIN_WEIGHT && weight < MAX_WEIGHT)
+        {
+            count++;
+            isAlive = true;
+        }
     }
 
     public void meow()
     {
         if (!isAlive)
+        {
             System.out.println("Ничего не происходит...");
+        }
         else {
             weight--;
             System.out.println("Meow");
-            if (isAlive && (weight < MIN_WEIGHT)) {
+            if (isAlive && (weight < MIN_WEIGHT))
+            {
                 count--;
                 isAlive = false;
             }
@@ -53,11 +53,13 @@ public class Cat
     {
         weight += amount;
         feedAmount += amount;
-        if (isAlive && (weight > MAX_WEIGHT)){
+        if (isAlive && (weight > MAX_WEIGHT))
+        {
             count--;
             isAlive = false;
         }
-        else if (!isAlive && (weight > MIN_WEIGHT)){
+        else if (!isAlive && (weight > MIN_WEIGHT))
+        {
             count++;
             isAlive = true;
             System.out.println("Произошло чудо, мы вернули кошку к жизни!");
@@ -68,11 +70,13 @@ public class Cat
     {
         weight += amount;
         feedAmount += amount;
-        if (isAlive && (weight > MAX_WEIGHT)){
+        if (isAlive && (weight > MAX_WEIGHT))
+        {
             count--;
             isAlive = false;
         }
-        else if (!isAlive && (weight > MIN_WEIGHT)){
+        else if (!isAlive && (weight > MIN_WEIGHT))
+        {
             count++;
             isAlive = true;
         }
@@ -85,13 +89,16 @@ public class Cat
 
     public String getStatus()
     {
-        if(weight < MIN_WEIGHT) {
+        if(weight < MIN_WEIGHT)
+        {
             return "Dead";
         }
-        else if(weight > MAX_WEIGHT) {
+        else if(weight > MAX_WEIGHT)
+        {
             return "Exploded";
         }
-        else if(weight > originWeight) {
+        else if(weight > originWeight)
+        {
             return "Sleeping";
         }
         else {
@@ -106,13 +113,15 @@ public class Cat
 
     public void goToilet()
     {
-        if (!isAlive) {
+        if (!isAlive)
+        {
             System.out.println("Ничего не происходит...");
         }
         else {
             weight -= 2;
             System.out.println("Дело сделано!");
-            if (isAlive && (weight < MIN_WEIGHT)) {
+            if (isAlive && (weight < MIN_WEIGHT))
+            {
                 count--;
                 isAlive = false;
             }
@@ -148,5 +157,5 @@ public class Cat
         }
         copyCat.feedAmount = getEatingMass();
         return copyCat;
-        }
+    }
 }
