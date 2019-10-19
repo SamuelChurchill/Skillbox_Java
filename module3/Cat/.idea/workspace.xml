@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4160ecc9-166c-4b24-b2d3-cc127ab26af8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../module4/IntegerExperiments/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/IntegerExperiments/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/IntegerExperiments/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/IntegerExperiments/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/IntegerExperiments/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/IntegerExperiments/IntegerExperiments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/IntegerExperiments/out/production/IntegerExperiments/Container.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/IntegerExperiments/out/production/IntegerExperiments/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/IntegerExperiments/src/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module4/IntegerExperiments/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/Cat.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/Cat.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +24,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1RCwoc0Bfj10bIxwOoaT5Syblz4" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
