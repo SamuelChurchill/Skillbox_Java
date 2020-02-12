@@ -12,10 +12,10 @@ public class Main {
         System.out.println("Минимальное значение Long " + Long.MIN_VALUE);
         System.out.println("Максимальное значение Long " + Long.MAX_VALUE);
 
-        System.out.println("Минимальное значение Float " + Float.MIN_VALUE);
+        System.out.println("Минимальное значение Float " + -Float.MAX_VALUE);
         System.out.println("Максимальное значение Float " + Float.MAX_VALUE);
 
-        System.out.println("Минимальное значение Double " + Double.MIN_VALUE);
+        System.out.println("Минимальное значение Double " + -Double.MAX_VALUE);
         System.out.println("Максимальное значение Double " + Double.MAX_VALUE);
     }
 }
